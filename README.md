@@ -1,13 +1,13 @@
-# json-sync
+# Jasonic
 
 ## Description
 
-The `json-sync` tool is a Node.js utility that allows you to synchronize specific fields between two JSON files. This tool was born out of a personal need, I had never worked with Nodejs so it is a bit experimental, it may have bad practices or things that can be improved. If someone wants to contribute, welcome.
+The `jasonic` tool is a Node.js utility that allows you to synchronize specific fields between two JSON files. This tool was born out of a personal need, I had never worked with Nodejs so it is a bit experimental, it may have bad practices or things that can be improved. If someone wants to contribute, welcome.
 
 ## Installation
 
 ```sh
-npm install json-sync
+npm install jasonic
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install json-sync
 ### Import the Tool
 
 ```javascript
-const { syncJson } = require('json-sync');
+const { syncJson } = require('jasonic');
 ```
 
 ### `syncJson` Function
@@ -36,7 +36,7 @@ The `syncJson` function takes the following parameters:
 ### Example Usage
 
 ```javascript
-const { syncJson } = require('json-sync');
+const { syncJson } = require('jasonic');
 
 const sourcePath = 'path/to/source.json';
 const targetPath = 'path/to/target.json';
@@ -54,11 +54,11 @@ syncJson(sourcePath, targetPath, fields, options);
 ### Command Line Usage
 
 ```sh
-npm install -g json-sync
+npm install -g jasonic
 ```
 
 ```sh
-json-sync source.json target.json --fields name version description
+jasonic source.json target.json --fields name version description
 ```
 
 ### Adding to `scripts` in `package.json`
@@ -66,7 +66,7 @@ json-sync source.json target.json --fields name version description
 ```json
 {
   "scripts": {
-    "sync-json": "json-sync source.json target.json --fields name version description"
+    "sync-json": "jasonic source.json target.json --fields name version description"
   }
 }
 ```

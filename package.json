@@ -1,5 +1,5 @@
 {
-  "name": "json-sync",
+  "name": "jasonic",
   "version": "1.0.0",
   "description": "Json files sync tool",
   "author": "Jalkhov",
@@ -11,7 +11,7 @@
     "check-format": "prettier --check ."
   },
   "bin": {
-    "json-sync": "bin/json-sync.js"
+    "jasonic": "bin/jasonic.js"
   },
   "keywords": [
     "json",
@@ -19,11 +19,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/jalkhov/json-sync.git"
+    "url": "https://github.com/jalkhov/jasonic.git"
   },
-  "homepage": "https://github.com/jalkhov/json-sync",
+  "homepage": "https://github.com/jalkhov/jasonic",
   "bugs": {
-    "url": "https://github.com/jalkhov/json-sync/issues"
+    "url": "https://github.com/jalkhov/jasonic/issues"
   },
   "devDependencies": {
     "jest": "^29.7.0",

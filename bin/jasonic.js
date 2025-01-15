@@ -6,7 +6,7 @@ const path = require('path');
 const yargs = require('yargs');
 
 const argv = yargs
-  .usage('Usage: json-sync <source> <target> [options]')
+  .usage('Usage: jasonic <source> <target> [options]')
   .demandCommand(2)
   .option('fields', {
     alias: 'f',
