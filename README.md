@@ -1,8 +1,14 @@
-# Jasonic
+<h1 align="center" style="border-bottom: none;">🔄 jasonic</h1>
+<h3 align="center">Sync your json's quickly</h3>
 
-[![Release](https://github.com/Jalkhov/jasonic/actions/workflows/release.yml/badge.svg)](https://github.com/Jalkhov/jasonic/actions/workflows/release.yml)
-
-## Description
+<p align="center">
+  <a href="https://github.com/Jalkhov/jasonic/actions/workflows/release.yml">
+    <img alt="ci" src="https://github.com/Jalkhov/jasonic/actions/workflows/release.yml/badge.svg">
+  </a>
+  <a href="https://www.npmjs.com/package/jasonic">
+    <img alt="npm latest version" src="https://img.shields.io/npm/v/jasonic/latest.svg">
+  </a>
+</p>
 
 The `jasonic` tool is a Node.js utility that allows you to synchronize specific fields between two JSON files. This tool was born out of a personal need, I had never worked with Nodejs so it is a bit experimental, it may have bad practices or things that can be improved. If someone wants to contribute, welcome.
 
