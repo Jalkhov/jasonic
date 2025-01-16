@@ -1,6 +1,6 @@
 {
   "name": "jasonic",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Json files sync tool",
   "author": "Jalkhov",
   "license": "MIT",
@@ -26,6 +26,8 @@
     "url": "https://github.com/jalkhov/jasonic/issues"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
     "jest": "^29.7.0",
     "prettier": "^3.4.2"
   },
